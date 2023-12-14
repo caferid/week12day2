@@ -47,7 +47,7 @@ const arr = [
 ]
 app.use(express.json());
 // normal get
-app.get('/', (res) => {
+app.get('/', (req,res) => {
     res.send('Hello World!')
 })
 
